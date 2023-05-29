@@ -1,2 +1,2 @@
-# hello-world
-learning how to create repository.
+# About me
+I'm Fidelis. Front-end Engineer and a Technical writer.
