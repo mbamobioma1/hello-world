@@ -62,3 +62,54 @@ Take the following steps to create a navbar that responds to different screen si
 </body>
 </html>
 ```
+***Result***
+
+![image](2023-06-01-00-10-18.png)
+
+**Add CSS to style your navbar**
+
+***Code***
+```ruby
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width:100%;
+    display: flex;
+    align-items: center;
+    background-color: #008000;
+    z-index: 2;
+}
+.logo{
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.icon{
+    font-size: 20px;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+nav{
+    text-align: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+```
