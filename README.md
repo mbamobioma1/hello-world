@@ -113,3 +113,8 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 ```
+`Note: This is external CSS file, ensure to link it to your html file;above the heading closing tag.`
+
+***Result***
+
+![image](2023-05-31-22-44-11.png)
