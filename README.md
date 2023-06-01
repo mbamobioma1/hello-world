@@ -29,3 +29,36 @@ Take the following steps to create a navbar that responds to different screen si
 2. Add CSS to style your navbar.
 3. Make your navbar responsive using media queries.
 4. Make your navbar toggleable using JavaScript.
+
+**Write Your HTML Code**
+
+***Code***
+```ruby
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <!--external css file linked here-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome url linked here to enable display font-icon-->
+    <script src="https://kit.fontawesome.com/58b7424050.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <label class="logo"><h1>Logo</h1></label>
+        <nav>
+            <ul id="menulist">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <label class="icon"><i class="fa fa-bars" onclick="togglemenu()"></i></label>
+    </div>
+</body>
+</html>
+```
