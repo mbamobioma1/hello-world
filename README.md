@@ -30,7 +30,7 @@ Take the following steps to create a navbar that responds to different screen si
 3. Make your navbar responsive using media queries.
 4. Make your navbar toggleable using JavaScript.
 
-**Write Your HTML Code**
+**1. Write Your HTML Code**
 
 ***Code***
 ```ruby
@@ -66,7 +66,7 @@ Take the following steps to create a navbar that responds to different screen si
 
 ![image](2023-06-01-00-10-18.png)
 
-**Add CSS to style your navbar**
+**2. Add CSS to style your navbar**
 
 ***Code***
 ```ruby
@@ -118,3 +118,44 @@ nav ul li a:hover{
 ***Result***
 
 ![image](2023-05-31-22-44-11.png)
+
+**3. Make your navbar responsive using Media queries**
+
+***Code**
+```ruby
+/*screen with width less than or equal to 576px*/
+@media only screen and (max-width:576px) {
+    nav ul{
+        width: 100%;
+        background-color: #808080;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+nav ul li a{
+    color: #ffffff;
+    font-size: 15px;
+}
+.icon{
+    display: block;
+}
+nav{
+    flex: 1;
+}
+#menulist{
+    overflow: hidden;
+    transition: 1.5s;
+}
+```
+`your media query code shold be in your CSS file below your css code`
+
+***Result***
+
+![image]()
