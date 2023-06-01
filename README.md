@@ -185,3 +185,7 @@ Resize your screen to see the effect.
  ***Result***
  
 ![image](2023-06-01-01-12-48.png)
+#### Conclusion
+In this tutorial you were able to learn how to create a navbar that responds to different screen sizes using **HTML, CSS Media query, and JavaScript.**
+You can copy and reuse the code from [my repository]().
+If this tutorial is helpful comment and follow me on [Twitter](https://twitter.com/FidelisObioma) for daily tips on web development.
