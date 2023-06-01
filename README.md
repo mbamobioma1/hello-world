@@ -4,8 +4,7 @@
 
 In this tutorial, you'll learn the following:
 * What is a Navbar?
-* [How to create a navbar that responds to different screen sizes using:](mbamobioma1  /  
-how-to-create-nav...  / )
+* Steps to Create Navbar that Responds to Different Screen Sizes Using:
   - Html
   - CSS
   - Media query
