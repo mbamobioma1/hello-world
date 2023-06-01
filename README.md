@@ -154,8 +154,31 @@ nav{
     transition: 1.5s;
 }
 ```
-`your media query code shold be in your CSS file below your css code`
+`your media query code should be in your CSS file below your css code`
 
 ***Result***
 
-![image]()
+Resize your screen to see the effect.
+
+![image](2023-06-01-01-02-52.png)
+
+**4. Make your navbar toggleable using JavaScript.**
+
+***Code**
+```ruby
+ <!--javascript embedded above the closing body tag-->
+    <script>
+        var menulist = document.getElementById("menulist")
+        menulist.style.maxHeight = "0px"
+        function togglemenu(){
+            if(  menulist.style.maxHeight == "0px"){
+                menulist.style.maxHeight = "160px"
+            }
+            else{
+                menulist.style.maxHeight = "0px"
+            }
+        }
+    </script>
+    `This is internal JavaScript file, your JavaScript code should be above body closing tag of your HTML file.`
+```
+[image]()
