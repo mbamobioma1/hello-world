@@ -14,7 +14,7 @@ Learn [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/C
 ## What is a Navbar?
 Before we dive deeper into this tutorial, what is a navbar?
 
-![The image isn't showing because you are offline](https://i1.wp.com/onaircode.com/wp-content/uploads/2019/09/a-navigation-bar-dropdown-menu.jpg?fit=1403%2C720&ssl=1)
+![The image isn't showing because you are offline](assets/images/2023-05-31-22-44-11.png)
 A **Navbar** is the section of a web page interface that helps users to access information on a website easily. Navbars are implemented in the following user interfaces:
 * operating system
 * websites
