@@ -179,6 +179,9 @@ Resize your screen to see the effect.
             }
         }
     </script>
-    `This is internal JavaScript file, your JavaScript code should be above body closing tag of your HTML file.`
 ```
-[image]()
+ `This is internal JavaScript file, your JavaScript code should be above body closing tag of your HTML file.`
+ 
+ ***Result***
+ 
+![image](2023-06-01-01-12-48.png)
