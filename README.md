@@ -124,35 +124,37 @@ nav ul li a:hover{
 ***Code**
 ```ruby
 /*screen with width less than or equal to 576px*/
-@media only screen and (max-width:576px) {
+@media only screen and (max-width: 576px) {
+    nav{
+      flex: 1;
+    }
     nav ul{
-        width: 100%;
-        background-color: #808080;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        z-index: 2;
+      width: 100%;
+      background-color: #808080;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      z-index: 2;
+  
     }
     nav ul li{
-        display: block;
-        margin-top: 20px;
-        margin-bottom: 20px;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
-}
-nav ul li a{
-    color: #ffffff;
-    font-size: 15px;
-}
-.icon{
-    display: block;
-}
-nav{
-    flex: 1;
-}
-#menulist{
-    overflow: hidden;
-    transition: 1.5s;
-}
+    
+    nav ul li a {
+      color: #ffffff;
+      font-size: 15px;
+    }
+    .icon{
+      display: block;
+    }
+    #menulist{
+      overflow: hidden;
+      transition: 1.5s;
+    }
+  }
 ```
 `your media query code should be in your CSS file below your css code`
 
