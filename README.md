@@ -20,7 +20,7 @@ A **Navbar** is the section of a web page interface that helps users to access i
 * operating system
 * websites
 * file browsers
-* apps
+* apps etc.
 
 ### Steps to Create Navbar that Responds to Different Screen Sizes
 
@@ -66,7 +66,7 @@ Take the following steps to create a navbar that responds to different screen si
 
 ![image](2023-06-01-00-10-18.png)
 
-***To know more on how to use icons in your code, check [fontawsome.com](https://fontawesome.com/icons)***
+***To know more on how to use icons in your code, check [fontawsome.com/icon](https://fontawesome.com/icons)***
 
 **2. Add CSS to style your navbar**
 
@@ -115,7 +115,7 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 ```
-`Note: This is external CSS file, ensure to link it to your html file;above the heading closing tag.`
+`Note: This is external CSS file, ensure to link it to your HTML file above the heading closing tag.`
 
 ***Result***
 
