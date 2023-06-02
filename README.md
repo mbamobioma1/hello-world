@@ -66,6 +66,8 @@ Take the following steps to create a navbar that responds to different screen si
 
 ![image](2023-06-01-00-10-18.png)
 
+***To know more on how to use icons in your code, check [fontawsome.com](https://fontawesome.com/icons)***
+
 **2. Add CSS to style your navbar**
 
 ***Code***
