@@ -102,7 +102,7 @@ nav{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    margin: 10px 30px;
+    margin: -12px 30px;
 }
 nav ul li a{
     text-decoration: none;
