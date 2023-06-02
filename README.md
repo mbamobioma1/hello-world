@@ -187,6 +187,7 @@ Resize your screen to see the effect.
  ***Result***
  
 ![image](2023-06-01-01-12-48.png)
+`click on the button to see how it displays and hide the menulist`
 #### Conclusion
 In this tutorial you were able to learn how to create a navbar that responds to different screen sizes using **HTML, CSS Media query, and JavaScript.**
 You can visit my [git repository](https://github.com/mbamobioma1) to copy and reuse the code.
